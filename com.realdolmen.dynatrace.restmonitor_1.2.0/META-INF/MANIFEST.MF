@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.realdolmen.dynatrace.restmonitor;singleton:=t
+ rue
+Bundle-Name: REST Monitor - Custom Akana
+Bundle-Version: 1.2.1
+Implementation-Version: 6.5.0.1289
+Bundle-ClassPath: .,lib/accessors-smart-1.1.jar,lib/asm-5.0.3.jar,lib/
+ commons-codec-1.9.jar,lib/commons-logging-1.2.jar,lib/fluent-hc-4.5.3
+ .jar,lib/httpclient-4.5.3.jar,lib/httpclient-cache-4.5.3.jar,lib/http
+ client-win-4.5.3.jar,lib/httpcore-4.4.6.jar,lib/httpmime-4.5.3.jar,li
+ b/jna-4.1.0.jar,lib/jna-platform-4.1.0.jar,lib/json-path-2.2.0.jar,li
+ b/json-simple-1.1.1.jar,lib/json-smart-2.2.1.jar,lib/slf4j-api-1.7.16
+ .jar
+Bundle-Localization: plugin
+Require-Bundle: com.dynatrace.diagnostics.sdk,com.dynatrace.diagnostic
+ s.httpclient,com.dynatrace.diagnostics.util
+Built-By: builduser
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Realdolmen
+
